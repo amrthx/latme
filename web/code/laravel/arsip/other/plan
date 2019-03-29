@@ -1,0 +1,3 @@
+Tahap 1
+    ->Buat modul untuk template project, berfungsi untuk pengaturan dasar aplikasi misal, login, kewenangan, dll. sehingga untuk
+        tahap selanjutnya hanya fokus ditask masing-masing sub project.
