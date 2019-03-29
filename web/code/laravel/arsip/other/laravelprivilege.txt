@@ -1,8 +1,0 @@
-sudo chgrp -R www-data storage bootstrap/cache
-sudo chmod -R ug+rwx storage bootstrap/cache
-
-// Jika menggunakan ACL
-// nginx = webserver user
-// systemuser = your local user which you use to login via ssh
-sudo setfacl -Rdm u:nginx:rwx,u:systemuser:rwx storage
-sudo setfacl -Rm u:nginx:rwx,u:systemuser:rwx storage
